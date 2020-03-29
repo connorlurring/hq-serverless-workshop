@@ -4,6 +4,7 @@
   "description": "This workshop is designed to show how to make a quick, serverless, RESTful memo API on AWS.",
   "main": "index.js",
   "dependencies": {
+    "aws-sdk": "^2.648.0",
     "uuid": "^7.0.2"
   },
   "devDependencies": {},
