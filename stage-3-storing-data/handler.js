@@ -91,9 +91,9 @@ module.exports.update = async event => {
   try {
     let result = await dynamoDb.update(query).promise();
     if (result) {
-      return buildResponse(200, {});
+      return buildResponse(200, { success: true });
     }
-    return buildResponse(404, {});
+    return buildResponse(404, { success: false });
   } catch (err) {
     return buildResponse(500, { success: false });
   }
