@@ -24,7 +24,7 @@ This principle is important as it helps ensure consistent behaviour. The idea be
 An example of a conversation that doesn't comply with this principle and confuses the server:
 ```
 Client: "Have you watched Breaking Bad?"
-Server: "Yes.s"
+Server: "Yes."
 Client: "What did you think of season 1?"
 Server: "What???"
 ```
@@ -67,4 +67,4 @@ Although it is not necessary for an API to be HTTP based to be RESTful, our impl
 
 Our API is going to use POST requests to create a new memo, PUT requests to update memos, GET requests to retrieve memos, and DELETE requests to delete memos.
 
-These routes have now been created in the stage 2 serverless file, and their handlers created in the handler file.
+ Now that we have created these routes in the stage 2 serverless file, and their handlers created in the handler file, we can move on to storing the data submitted.

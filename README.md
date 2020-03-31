@@ -1,8 +1,7 @@
 # Introduction to RESTful APIs on AWS with Serverless!
-
 This workshop is designed to show how to make a quick, serverless, RESTful memo API on AWS.
 
-
+The example project that we will be developing is a RESTful API running on Lambda to perform CRUD operations on memos in a DynamoDB instance.
 
 ***
 
